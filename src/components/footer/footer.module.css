@@ -1,0 +1,33 @@
+.container {
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (max-width: 520px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+    gap: 1rem;
+  }
+  .copyright {
+    order: 1;
+  }
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
