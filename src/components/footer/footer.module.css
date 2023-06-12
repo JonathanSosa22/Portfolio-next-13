@@ -24,6 +24,8 @@
     gap: 1rem;
   }
   .copyright {
+    text-align: center;
+    padding: 1rem 0;
     order: 1;
   }
   .icon {
